@@ -1,0 +1,104 @@
+name: Telegram, TikTok, Instagram & Google
+desc: Проверка доступности сервисов через текущий или выбранный узел
+
+tiles:
+  - name: Telegram-Check
+    title: Telegram
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
+    collapsed: true
+    url: https://telegram.org
+
+  - name: TikTok-Check
+    title: TikTok
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok.png
+    collapsed: true
+    url: https://www.tiktok.com
+
+  - name: Instagram-Check
+    title: Instagram
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Instagram.png
+    collapsed: true
+    url: https://www.instagram.com
+
+  - name: Google-Check
+    title: Google
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google.png
+    collapsed: true
+    url: https://www.google.com
+
+script-providers:
+  Telegram-Check:
+    payload: |
+      $httpClient.get({
+        url: "https://api.telegram.org",
+        timeout: 8,
+        headers: {
+          "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 Version/18.0 Mobile/15E148 Safari/604.1"
+        },
+        "auto-redirect": true
+      }, function (error, response) {
+        var status = Number(response && (response.status || response.statusCode)) || 0;
+        var available = !error && status >= 200 && status < 400;
+
+        $done({
+          content: available ? "Доступен" : (error ? "Ошибка сети" : "Недоступен (HTTP " + status + ")"),
+          backgroundColor: available ? "#229ED9" : (error ? "#6B7280" : "#A44747")
+        });
+      });
+
+  TikTok-Check:
+    payload: |
+      $httpClient.get({
+        url: "https://www.tiktok.com/robots.txt",
+        timeout: 8,
+        headers: {
+          "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 Version/18.0 Mobile/15E148 Safari/604.1"
+        },
+        "auto-redirect": true
+      }, function (error, response) {
+        var status = Number(response && (response.status || response.statusCode)) || 0;
+        var available = !error && status === 200;
+
+        $done({
+          content: available ? "Доступен" : (error ? "Ошибка сети" : "Недоступен (HTTP " + status + ")"),
+          backgroundColor: available ? "#FE2C55" : (error ? "#6B7280" : "#A44747")
+        });
+      });
+
+  Instagram-Check:
+    payload: |
+      $httpClient.get({
+        url: "https://www.instagram.com/robots.txt",
+        timeout: 8,
+        headers: {
+          "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 Version/18.0 Mobile/15E148 Safari/604.1"
+        },
+        "auto-redirect": true
+      }, function (error, response) {
+        var status = Number(response && (response.status || response.statusCode)) || 0;
+        var available = !error && status === 200;
+
+        $done({
+          content: available ? "Доступен" : (error ? "Ошибка сети" : "Недоступен (HTTP " + status + ")"),
+          backgroundColor: available ? "#C13584" : (error ? "#6B7280" : "#A44747")
+        });
+      });
+
+  Google-Check:
+    payload: |
+      $httpClient.get({
+        url: "https://www.google.com/generate_204",
+        timeout: 8,
+        headers: {
+          "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 Version/18.0 Mobile/15E148 Safari/604.1"
+        },
+        "auto-redirect": true
+      }, function (error, response) {
+        var status = Number(response && (response.status || response.statusCode)) || 0;
+        var available = !error && status === 204;
+
+        $done({
+          content: available ? "Доступен" : (error ? "Ошибка сети" : "Недоступен (HTTP " + status + ")"),
+          backgroundColor: available ? "#4285F4" : (error ? "#6B7280" : "#A44747")
+        });
+      });
