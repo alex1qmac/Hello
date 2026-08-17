@@ -1,0 +1,755 @@
+# Stash remote proxy set
+# Combined from Archive.zip
+# Proxies: 70
+proxies:
+  - name: "🇷🇺 Россия"
+    type: "ss"
+    server: "undef-ru-0.undef.network"
+    port: 38348
+    cipher: "chacha20-ietf-poly1305"
+    password: "5a5PEcSYurSJkUcvyOb17koOq"
+    udp: true
+  - name: "🇦🇹 Австрия"
+    type: "vmess"
+    server: "undef-aut-0.undef.network"
+    port: 2053
+    uuid: "eedc383c-841d-3bbc-9550-313b668dc62e"
+    cipher: "none"
+    alterId: 0
+    udp: true
+  - name: "🇬🇧 Великобритания"
+    type: "vmess"
+    server: "undef-uk-0.undef.network"
+    port: 2053
+    uuid: "551f3791-e119-3fb1-9676-fe8489e1a5e9"
+    cipher: "none"
+    alterId: 0
+    udp: true
+  - name: "📶 LTE_1"
+    type: "vmess"
+    server: "lte-ingress-0.undef.network"
+    port: 8080
+    uuid: "0cb085fa-370a-3264-864f-493f5877021e"
+    cipher: "none"
+    alterId: 0
+    udp: true
+  - name: "🇩🇪 DE1"
+    type: "vmess"
+    server: "undef-deu-31.undef.network"
+    port: 2053
+    uuid: "b2476f5d-15b5-3440-8cba-9a2ed06b1ebd"
+    cipher: "none"
+    alterId: 0
+    udp: true
+  - name: "🇩🇪 DE2"
+    type: "vmess"
+    server: "undef-deu-31b.undef.network"
+    port: 2053
+    uuid: "a8948ecb-a332-3c20-81cc-368e465a9cd6"
+    cipher: "none"
+    alterId: 0
+    udp: true
+  - name: "🇩🇪 Германия"
+    type: "vmess"
+    server: "undef-de-0.undef.network"
+    port: 2053
+    uuid: "f336d2fb-a2d6-3da8-9f85-d5ea6ea2b88b"
+    cipher: "none"
+    alterId: 0
+    udp: true
+  - name: "🇭🇰 Гонконг"
+    type: "vmess"
+    server: "undef-hk-0.undef.network"
+    port: 2053
+    uuid: "abdac859-ddf1-3904-88d4-9c1195415da1"
+    cipher: "none"
+    alterId: 0
+    udp: true
+  - name: "🇰🇿 Казахстан"
+    type: "vmess"
+    server: "undef-kz-0.undef.network"
+    port: 2053
+    uuid: "dcb20e9a-f764-365d-82ce-4d7e93397952"
+    cipher: "none"
+    alterId: 0
+    udp: true
+  - name: "🇨🇦 Канада"
+    type: "vmess"
+    server: "undef-ca-hy1.undef.network"
+    port: 2053
+    uuid: "6091feb9-38c9-3cca-835c-43ca0bdc3c58"
+    cipher: "none"
+    alterId: 0
+    udp: true
+  - name: "🇳🇱 Нидерланды"
+    type: "vmess"
+    server: "undef-nl-10.undef.network"
+    port: 2053
+    uuid: "fd76b098-ccea-3281-87ed-0976dedceade"
+    cipher: "none"
+    alterId: 0
+    udp: true
+  - name: "🇵🇱 Польша"
+    type: "vmess"
+    server: "undef-pl-1.undef.network"
+    port: 2053
+    uuid: "eb1d548a-b5ed-37f7-960b-bcd9717bbe9d"
+    cipher: "none"
+    alterId: 0
+    udp: true
+  - name: "🇷🇺 Россия​"
+    type: "vmess"
+    server: "undef-ru-0.undef.network"
+    port: 2053
+    uuid: "765bdfcb-10bd-39ef-8813-46c9dce6b272"
+    cipher: "none"
+    alterId: 0
+    udp: true
+  - name: "🇺🇸 US1"
+    type: "vmess"
+    server: "undef-usa-0.undef.network"
+    port: 2053
+    uuid: "b61689ea-5e12-3d96-8192-ccaa46fced33"
+    cipher: "none"
+    alterId: 0
+    udp: true
+  - name: "🇺🇸 US2"
+    type: "vmess"
+    server: "undef-usa-31b.undef.network"
+    port: 2053
+    uuid: "b43a9a17-352a-3966-8807-a3a11cce5517"
+    cipher: "none"
+    alterId: 0
+    udp: true
+  - name: "🇸🇬 Сингапур"
+    type: "vmess"
+    server: "undef-sg-0.undef.network"
+    port: 2053
+    uuid: "5397be43-ccd8-30c6-98e2-ecdb9da49e44"
+    cipher: "none"
+    alterId: 0
+    udp: true
+  - name: "🇫🇮 FI1"
+    type: "vmess"
+    server: "undef-fin-31.undef.network"
+    port: 2053
+    uuid: "720f4f1c-18f2-3d37-9bf0-8240b4d30151"
+    cipher: "none"
+    alterId: 0
+    udp: true
+  - name: "🇫🇮 FI2"
+    type: "vmess"
+    server: "undef-fin-31b.undef.network"
+    port: 2053
+    uuid: "5c836805-b9cd-3798-9045-e893532d377c"
+    cipher: "none"
+    alterId: 0
+    udp: true
+  - name: "🇫🇮 Финляндия"
+    type: "vmess"
+    server: "undef-fin-2.undef.network"
+    port: 2053
+    uuid: "2058bfdc-48d8-3900-99f5-2bb26f520ce2"
+    cipher: "none"
+    alterId: 0
+    udp: true
+  - name: "🇸🇪 Швеция"
+    type: "vmess"
+    server: "undef-swe-0.undef.network"
+    port: 2053
+    uuid: "1450ec98-6743-32c7-8548-185e8ee6ca3d"
+    cipher: "none"
+    alterId: 0
+    udp: true
+  - name: "🇦🇹 Австрия​"
+    type: "trojan"
+    server: "undef-aut-0.undef.network"
+    port: 443
+    password: "nM2ODxAhTdnCdVKUWvE4cMqTQ"
+    udp: true
+    sni: "UNDEF-AUT-0.UNDEF.NETWORK"
+    network: "ws"
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "undef-aut-0.undef.network"
+  - name: "🇬🇧 Великобритания​"
+    type: "trojan"
+    server: "undef-uk-0.undef.network"
+    port: 443
+    password: "ISaJrtntiT4Py09AvIZsNuTA7"
+    udp: true
+    sni: "UNDEF-UK-0.UNDEF.NETWORK"
+    network: "ws"
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "undef-uk-0.undef.network"
+  - name: "📶 LTE_1​"
+    type: "trojan"
+    server: "lte-ingress-0.undef.network"
+    port: 443
+    password: "a3LwZaTrT9mwKE9uO85a4HrtG"
+    udp: true
+    sni: "LTE-INGRESS-0.UNDEF.NETWORK"
+    network: "ws"
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "lte-ingress-0.undef.network"
+  - name: "🇩🇪 DE1​"
+    type: "trojan"
+    server: "undef-deu-31.undef.network"
+    port: 443
+    password: "OteG7xUlATHqVwInxJuuuKEE5"
+    udp: true
+    sni: "UNDEF-DEU-31.UNDEF.NETWORK"
+    network: "ws"
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "undef-deu-31.undef.network"
+  - name: "🇩🇪 DE2​"
+    type: "trojan"
+    server: "undef-deu-31b.undef.network"
+    port: 443
+    password: "ywmljXNNOjcDlNolhZ4g279c6"
+    udp: true
+    sni: "UNDEF-DEU-31B.UNDEF.NETWORK"
+    network: "ws"
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "undef-deu-31b.undef.network"
+  - name: "🇩🇪 Германия​"
+    type: "trojan"
+    server: "undef-de-0.undef.network"
+    port: 443
+    password: "0jNf1W3mQVQuAqbBtf2iZEMU3"
+    udp: true
+    sni: "UNDEF-DE-0.UNDEF.NETWORK"
+    network: "ws"
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "undef-de-0.undef.network"
+  - name: "🇭🇰 Гонконг​"
+    type: "trojan"
+    server: "undef-hk-0.undef.network"
+    port: 443
+    password: "ABk5Ihe1tpC7aDkcA72irfyvx"
+    udp: true
+    sni: "UNDEF-HK-0.UNDEF.NETWORK"
+    network: "ws"
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "undef-hk-0.undef.network"
+  - name: "🇰🇿 Казахстан​"
+    type: "trojan"
+    server: "undef-kz-0.undef.network"
+    port: 443
+    password: "4W6SrbiPJknvIYHFB6BT4S5Fj"
+    udp: true
+    sni: "UNDEF-KZ-0.UNDEF.NETWORK"
+    network: "ws"
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "undef-kz-0.undef.network"
+  - name: "🇨🇦 Канада​"
+    type: "trojan"
+    server: "undef-ca-hy1.undef.network"
+    port: 443
+    password: "z831Dxy3aMk9QYo6vdzJsUjuB"
+    udp: true
+    sni: "UNDEF-CA-HY1.UNDEF.NETWORK"
+    network: "ws"
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "undef-ca-hy1.undef.network"
+  - name: "🇳🇱 Нидерланды​"
+    type: "trojan"
+    server: "undef-nl-10.undef.network"
+    port: 443
+    password: "sEo0ZuDogSwFCuiExEa50FbX4"
+    udp: true
+    sni: "UNDEF-NL-10.UNDEF.NETWORK"
+    network: "ws"
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "undef-nl-10.undef.network"
+  - name: "🇵🇱 Польша​"
+    type: "trojan"
+    server: "undef-pl-1.undef.network"
+    port: 443
+    password: "n3amKb6LGczlkiGTIc2A6lNWK"
+    udp: true
+    sni: "UNDEF-PL-1.UNDEF.NETWORK"
+    network: "ws"
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "undef-pl-1.undef.network"
+  - name: "🇷🇺 Россия​​"
+    type: "trojan"
+    server: "undef-ru-0.undef.network"
+    port: 443
+    password: "IY4zSLujHaWFYsfoeMXSu9Jec"
+    udp: true
+    sni: "UNDEF-RU-0.UNDEF.NETWORK"
+    network: "ws"
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "undef-ru-0.undef.network"
+  - name: "🇺🇸 US1​"
+    type: "trojan"
+    server: "undef-us-3.undef.network"
+    port: 443
+    password: "S4QJZRvnAeU8zK2AuzwZSYawf"
+    udp: true
+    sni: "UNDEF-US-3.UNDEF.NETWORK"
+    network: "ws"
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "undef-us-3.undef.network"
+  - name: "🇺🇸 US2​"
+    type: "trojan"
+    server: "undef-usa-31b.undef.network"
+    port: 443
+    password: "BsJzFuvNOIxBvS9e6daZHpwmx"
+    udp: true
+    sni: "UNDEF-USA-31B.UNDEF.NETWORK"
+    network: "ws"
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "undef-usa-31b.undef.network"
+  - name: "🇸🇬 Сингапур​"
+    type: "trojan"
+    server: "undef-sg-0.undef.network"
+    port: 443
+    password: "YmpWhWK1EyPHRvt1iLV99zua9"
+    udp: true
+    sni: "UNDEF-SG-0.UNDEF.NETWORK"
+    network: "ws"
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "undef-sg-0.undef.network"
+  - name: "🇫🇮 FI1​"
+    type: "trojan"
+    server: "undef-fin-31.undef.network"
+    port: 443
+    password: "KsYEaJm0Pw9p6a9mUpgdPIPJ3"
+    udp: true
+    sni: "UNDEF-FIN-31.UNDEF.NETWORK"
+    network: "ws"
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "undef-fin-31.undef.network"
+  - name: "🇫🇮 FI2​"
+    type: "trojan"
+    server: "undef-fin-31b.undef.network"
+    port: 443
+    password: "W2Yob5JinPzR2I0ePzz4sr23W"
+    udp: true
+    sni: "UNDEF-FIN-31B.UNDEF.NETWORK"
+    network: "ws"
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "undef-fin-31b.undef.network"
+  - name: "🇫🇮 Финляндия​"
+    type: "trojan"
+    server: "undef-fin-2.undef.network"
+    port: 443
+    password: "6A3fkkHgU7bafzl8BZ6ioA9EY"
+    udp: true
+    sni: "UNDEF-FIN-2.UNDEF.NETWORK"
+    network: "ws"
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "undef-fin-2.undef.network"
+  - name: "🇸🇪 Швеция​"
+    type: "trojan"
+    server: "undef-swe-0.undef.network"
+    port: 443
+    password: "p6vRM9up49OE26cTJxlE8njs8"
+    udp: true
+    sni: "UNDEF-SWE-0.UNDEF.NETWORK"
+    network: "ws"
+    ws-opts:
+      path: "/f2fc2a1f"
+      headers:
+        Host: "undef-swe-0.undef.network"
+  - name: "🇦🇹 Австрия​​"
+    type: "hysteria2"
+    server: "undef-aut-0.undef.network"
+    port: 8443
+    auth: "nM2ODxAhTdnCdVKUWvE4cMqTQ:nM2ODxAhTdnCdVKUWvE4cMqTQ"
+    fast-open: true
+    sni: "undef-aut-0.undef.network"
+    obfs: "salamander"
+    obfs-password: "47dheiwfHF784848"
+  - name: "🇬🇧 Великобритания​​"
+    type: "hysteria2"
+    server: "undef-uk-0.undef.network"
+    port: 8443
+    auth: "ISaJrtntiT4Py09AvIZsNuTA7:ISaJrtntiT4Py09AvIZsNuTA7"
+    fast-open: true
+    sni: "undef-uk-0.undef.network"
+    obfs: "salamander"
+    obfs-password: "47dheiwfHF784848"
+  - name: "📶 LTE_1​​"
+    type: "hysteria2"
+    server: "lte-ingress-0.undef.network"
+    port: 443
+    auth: "a3LwZaTrT9mwKE9uO85a4HrtG:a3LwZaTrT9mwKE9uO85a4HrtG"
+    fast-open: true
+    sni: "lte-ingress-0.undef.network"
+    obfs: "salamander"
+    obfs-password: "47dheiwfHF784848"
+  - name: "🇩🇪 Германия​​"
+    type: "hysteria2"
+    server: "undef-de-0.undef.network"
+    port: 443
+    auth: "0jNf1W3mQVQuAqbBtf2iZEMU3:0jNf1W3mQVQuAqbBtf2iZEMU3"
+    fast-open: true
+    sni: "undef-de-0.undef.network"
+    obfs: "salamander"
+    obfs-password: "47dheiwfHF784848"
+  - name: "🇭🇰 Гонконг​​"
+    type: "hysteria2"
+    server: "undef-hk-0.undef.network"
+    port: 443
+    auth: "ABk5Ihe1tpC7aDkcA72irfyvx:ABk5Ihe1tpC7aDkcA72irfyvx"
+    fast-open: true
+    sni: "undef-hk-0.undef.network"
+    obfs: "salamander"
+    obfs-password: "47dheiwfHF784848"
+  - name: "🇰🇿 Казахстан​​"
+    type: "hysteria2"
+    server: "undef-kz-0.undef.network"
+    port: 443
+    auth: "4W6SrbiPJknvIYHFB6BT4S5Fj:4W6SrbiPJknvIYHFB6BT4S5Fj"
+    fast-open: true
+    sni: "undef-kz-0.undef.network"
+    obfs: "salamander"
+    obfs-password: "47dheiwfHF784848"
+  - name: "🇨🇦 Канада​​"
+    type: "hysteria2"
+    server: "undef-ca-hy1.undef.network"
+    port: 443
+    auth: "z831Dxy3aMk9QYo6vdzJsUjuB:z831Dxy3aMk9QYo6vdzJsUjuB"
+    fast-open: true
+    sni: "undef-ca-hy1.undef.network"
+    obfs: "salamander"
+    obfs-password: "47dheiwfHF784848"
+  - name: "🇳🇱 Нидерланды​​"
+    type: "hysteria2"
+    server: "undef-nl-10.undef.network"
+    port: 8443
+    auth: "sEo0ZuDogSwFCuiExEa50FbX4:sEo0ZuDogSwFCuiExEa50FbX4"
+    fast-open: true
+    sni: "undef-nl-10.undef.network"
+    obfs: "salamander"
+    obfs-password: "47dheiwfHF784848"
+  - name: "🇵🇱 Польша​​"
+    type: "hysteria2"
+    server: "undef-pl-1.undef.network"
+    port: 443
+    auth: "n3amKb6LGczlkiGTIc2A6lNWK:n3amKb6LGczlkiGTIc2A6lNWK"
+    fast-open: true
+    sni: "undef-pl-1.undef.network"
+    obfs: "salamander"
+    obfs-password: "47dheiwfHF784848"
+  - name: "🇷🇺 Россия​​​"
+    type: "hysteria2"
+    server: "undef-ru-0.undef.network"
+    port: 443
+    auth: "IY4zSLujHaWFYsfoeMXSu9Jec:IY4zSLujHaWFYsfoeMXSu9Jec"
+    fast-open: true
+    sni: "undef-ru-0.undef.network"
+    obfs: "salamander"
+    obfs-password: "47dheiwfHF784848"
+  - name: "🇺🇸 US1​​"
+    type: "hysteria2"
+    server: "undef-us-3.undef.network"
+    port: 443
+    auth: "S4QJZRvnAeU8zK2AuzwZSYawf:S4QJZRvnAeU8zK2AuzwZSYawf"
+    fast-open: true
+    sni: "undef-us-3.undef.network"
+    obfs: "salamander"
+    obfs-password: "47dheiwfHF784848"
+  - name: "🇸🇬 Сингапур​​"
+    type: "hysteria2"
+    server: "undef-sg-0.undef.network"
+    port: 443
+    auth: "YmpWhWK1EyPHRvt1iLV99zua9:YmpWhWK1EyPHRvt1iLV99zua9"
+    fast-open: true
+    sni: "undef-sg-0.undef.network"
+    obfs: "salamander"
+    obfs-password: "47dheiwfHF784848"
+  - name: "🇫🇮 Финляндия​​"
+    type: "hysteria2"
+    server: "undef-fin-2.undef.network"
+    port: 443
+    auth: "6A3fkkHgU7bafzl8BZ6ioA9EY:6A3fkkHgU7bafzl8BZ6ioA9EY"
+    fast-open: true
+    sni: "undef-fin-2.undef.network"
+    obfs: "salamander"
+    obfs-password: "47dheiwfHF784848"
+  - name: "🇸🇪 Швеция​​"
+    type: "hysteria2"
+    server: "undef-swe-0.undef.network"
+    port: 443
+    auth: "p6vRM9up49OE26cTJxlE8njs8:p6vRM9up49OE26cTJxlE8njs8"
+    fast-open: true
+    sni: "undef-swe-0.undef.network"
+    obfs: "salamander"
+    obfs-password: "47dheiwfHF784848"
+  - name: "🇦🇹 Австрия​​​"
+    type: "vless"
+    server: "undef-aut-0.undef.network"
+    port: 8443
+    uuid: "198a09f7-0e8e-3c95-9c10-cd4851824b0a"
+    udp: true
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    tls: true
+    sni: "storage.yandex.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
+      short-id: "fca998e14de5105b"
+  - name: "🇬🇧 Великобритания​​​"
+    type: "vless"
+    server: "undef-uk-0.undef.network"
+    port: 8443
+    uuid: "464fdeef-0c70-3426-8630-9d5ed2c13ec6"
+    udp: true
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    tls: true
+    sni: "storage.yandex.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
+      short-id: "025abaa165619ce1"
+  - name: "📶 LTE_1​​​"
+    type: "vless"
+    server: "lte-ingress-0.undef.network"
+    port: 8443
+    uuid: "59c4c731-6444-3b06-9278-c86de97678b3"
+    udp: true
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    tls: true
+    sni: "tradingview.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
+      short-id: "5ee66cbb01b823a5"
+  - name: "🇩🇪 DE1​​"
+    type: "vless"
+    server: "undef-deu-31.undef.network"
+    port: 443
+    uuid: "bfa6327a-d614-3967-9d34-bf7c8f65b85d"
+    udp: true
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    tls: true
+    sni: "tradingview.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
+      short-id: "9b5ffd5a680dd823"
+  - name: "🇩🇪 DE2​​"
+    type: "vless"
+    server: "undef-deu-31b.undef.network"
+    port: 443
+    uuid: "f1ce740a-b79a-3e48-9a0d-f3a23bbe21ed"
+    udp: true
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    tls: true
+    sni: "tradingview.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
+      short-id: "9b5ffd5a680dd823"
+  - name: "🇭🇰 Гонконг​​​"
+    type: "vless"
+    server: "undef-hk-0.undef.network"
+    port: 8443
+    uuid: "52bf1e36-68bd-3a9a-8ff5-c3bfc9c6ea83"
+    udp: true
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    tls: true
+    sni: "storage.yandex.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
+      short-id: "5400c2557070def6"
+  - name: "🇰🇿 Казахстан​​​"
+    type: "vless"
+    server: "undef-kz-0.undef.network"
+    port: 8443
+    uuid: "cb449b01-ea8e-325e-84f1-e3207841a783"
+    udp: true
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    tls: true
+    sni: "storage.yandex.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
+      short-id: "8d1f9f13bf254124"
+  - name: "🇨🇦 Канада​​​"
+    type: "vless"
+    server: "undef-ca-hy1.undef.network"
+    port: 8443
+    uuid: "b11d6e47-3ef7-35e5-9930-099e3da7069e"
+    udp: true
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    tls: true
+    sni: "storage.yandex.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
+      short-id: "8894ee8fb303a568"
+  - name: "🇳🇱 Нидерланды​​​"
+    type: "vless"
+    server: "undef-nl-10.undef.network"
+    port: 8443
+    uuid: "e8c9b515-ab48-3bb0-95e5-7880a8e442f4"
+    udp: true
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    tls: true
+    sni: "storage.yandex.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
+      short-id: "bf1a13ae77b5e3e7"
+  - name: "🇵🇱 Польша​​​"
+    type: "vless"
+    server: "undef-pl-1.undef.network"
+    port: 8443
+    uuid: "17263cbe-9916-38a1-8da7-f3f7c3f4a2a2"
+    udp: true
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    tls: true
+    sni: "storage.yandex.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
+      short-id: "d881956167e58b07"
+  - name: "🇺🇸 US1​​​"
+    type: "vless"
+    server: "undef-us-3.undef.network"
+    port: 8443
+    uuid: "c71bc33e-0dcd-34ca-9b76-d7ff1c720e58"
+    udp: true
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    tls: true
+    sni: "storage.yandex.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
+      short-id: "b4100e4c3caa71f0"
+  - name: "🇺🇸 US2​​"
+    type: "vless"
+    server: "undef-usa-31b.undef.network"
+    port: 443
+    uuid: "bbc35bcd-d6fd-3bc1-9ae0-8d6c033e3142"
+    udp: true
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    tls: true
+    sni: "tradingview.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
+      short-id: "9b5ffd5a680dd823"
+  - name: "🇸🇬 Сингапур​​​"
+    type: "vless"
+    server: "undef-sg-0.undef.network"
+    port: 8443
+    uuid: "dd39c2ac-b352-3a04-9e92-7d3aba897a1f"
+    udp: true
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    tls: true
+    sni: "storage.yandex.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
+      short-id: "e1239929ade76c09"
+  - name: "🇫🇮 FI1​​"
+    type: "vless"
+    server: "undef-fin-31.undef.network"
+    port: 443
+    uuid: "36ce9928-b1c1-3abf-8e6d-04d0c1d21c4e"
+    udp: true
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    tls: true
+    sni: "tradingview.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
+      short-id: "9b5ffd5a680dd823"
+  - name: "🇫🇮 FI2​​"
+    type: "vless"
+    server: "undef-fin-31b.undef.network"
+    port: 443
+    uuid: "76e8f074-c3b5-3c7d-905f-8bfe58aace18"
+    udp: true
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    tls: true
+    sni: "tradingview.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
+      short-id: "9b5ffd5a680dd823"
+  - name: "🇫🇮 Финляндия​​​"
+    type: "vless"
+    server: "undef-fin-2.undef.network"
+    port: 8443
+    uuid: "1197d29c-dbe2-3da4-9d78-2785b66aead1"
+    udp: true
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    tls: true
+    sni: "storage.yandex.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
+      short-id: "606e66720ecf233f"
+  - name: "🇸🇪 Швеция​​​"
+    type: "vless"
+    server: "undef-swe-0.undef.network"
+    port: 8443
+    uuid: "ff3933f6-2304-3e89-9e11-7fa59ed51952"
+    udp: true
+    network: "tcp"
+    flow: "xtls-rprx-vision"
+    tls: true
+    sni: "storage.yandex.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "6z3VlbF2v0C3FTWQQemYDxX-MIzwaz_k8_B-xyc0Xyg"
+      short-id: "d5a0b7873988cb6e"
